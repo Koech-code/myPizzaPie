@@ -26,6 +26,17 @@ $ git clone https://github.com/Koech-code/myPizzaPie.git
 
 ```
 - Open the index.html file (in the root folder) and the website should show up.
+## BDD
+###### A customer should be able to;
+- Choose the size of pizza I want e.g Small, Medium, Large
+- Choose what kind of crust he/she would like the pizza to have e.g Crispy, Stuffed, Gluten-free
+- Choose the topping(s) he/she wants on my pizza.
+- Place an order for the Pizza and see the total charge for it.
+- Have an option to order as many pizzas as they want.
+- Have an option to have the pizza delivered or not. 
+  If delivered he/she wants to be alerted how much the delivery charge will be.
+- If the customer want my pizza to be delivered, he/she should be prompted to enter where the delivery should be     made and an alert saying '' your order will be delivered to your location"
+- See a checkout button that when clicked shows the total amount charged for the orders.
 
 ## Author
 
