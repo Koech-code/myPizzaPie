@@ -1,6 +1,6 @@
 ## myPizzaPie
 
-> Using pure html and basic css, I have created a webpage of my favorite music band.
+> This is a web application about my pizza business where my customers can order different sizes of pizzas with one or more toppings.
 
 ## Technologies used
 
@@ -16,6 +16,10 @@
 
 ### Setup instructions
 
+Feel free to contribute to the project by following the below steps;
+- Open your computer terminal e.g(ctrl+lt+T)
+- Create your directory of choice e.g(cd Documents/)
+- Create a folder where you will clone your files to, use the repository link below
 - Clone the repository to your folder of choice using Git (or just download all the files)
 ```
 $ git clone https://github.com/Koech-code/myPizzaPie.git
@@ -44,6 +48,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](LICENCE) licensed.
+This project is [MIT](LICENSE) licensed.
 
 
