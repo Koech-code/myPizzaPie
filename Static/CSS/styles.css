@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url("/Static/IMAGES/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+}
+
+#p1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#clmn{
+    width: 45vw;
+    height: 70vh;
+}
+
+#checkin{
+margin: 2% 0 0 45%;
+}
+
+#welcome{
+    color: #FC6969;
+    text-align: center;
+    font-size: 70px;
+}
+
+#menu{
+    background-color: #EEEEEE;
+    margin: 2% 5% 2% 5%;
+    border-radius: 10px;
+}
+
+.btn-group{
+    margin: 2% 0 0 40%;
+}
+
+.smcrispy .smstuffed .smgluten> img{
+    width: 30vw;
+    height: 50vh;
+}
+
+.smcrispy> img{
+    margin-left: 5%;
+}
+
+.medium> img{
+    width: 25vw;
+    height: 50vh;
+}
+
+.medium> img{
+    margin: 0 5% 0 5%;
+}
+
+#order{
+    background-color: #EEEEEE;
+    margin: 2% 5% 2% 5%;
+    border-radius: 10px;
+}
+
+#total{
+    display: flex;
+    justify-content: center;
+}
