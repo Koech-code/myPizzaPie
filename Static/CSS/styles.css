@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
     /* width: 80%; */
+    margin-bottom: 10%;
 }
 
 #p1{
@@ -33,6 +34,19 @@ margin: 2% 0 0 45%;
     text-align: center;
     font-size: 40px;
 }
+
+#small{
+    font-size: 15px;
+}
+
+#medium{
+    font-size: 20px;
+}
+
+#large{
+    font-size: 30px;
+}
+
 /* 
 #menu{
     background-color: #EEEEEE;
