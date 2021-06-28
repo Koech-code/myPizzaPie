@@ -47,7 +47,7 @@ margin: 2% 0 0 45%;
     font-size: 30px;
 }
 
-/* 
+
 #menu{
     background-color: #EEEEEE;
     margin: 2% 5% 2% 5%;
@@ -85,4 +85,16 @@ margin: 2% 0 0 45%;
 #total{
     display: flex;
     justify-content: center;
-} */
+}
+
+#hide{
+    background-color: forestgreen;
+}
+
+#hide1{
+    background-color: cyan;
+}
+
+#hide2{
+    background-color: #ED714A;
+}
