@@ -47,6 +47,16 @@ margin: 2% 0 0 45%;
     font-size: 30px;
 }
 
+#price1{
+    color: blue;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+#price1> input{
+    width: 5vw;
+    border: 4px dotted cadetblue;
+}
 
 #menu{
     background-color: #EEEEEE;
