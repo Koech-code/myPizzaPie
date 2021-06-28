@@ -53,7 +53,7 @@ function delivery(){
   }
   else if(a==="Yes"){
    var place=prompt("Please enter the preferred location you wish your pizza get delivered");
-   alert("Your order will be delivered to "+place);
+   alert("Your order will be delivered to "+place+" once you checkout.");
    alert("You will be charged $ 2.00 as delivery fee.Thank you, enjoy every bite.");
  } else if(a==="No"){
    alert("Thank you for placing your order.");
