@@ -61,10 +61,139 @@
               <button id="medium" type="button" class="btn btn-secondary btn-space">Medium</button>
               <button id="large" type="button" class="btn btn-success btn-lg">Large</button>
           </div>
-          Price1: <input id="first"><br><br>
-          Price2: <input id="second"><br><br>
-          <button onclick="add()">Total</button><br><br>
-          <input id="answer"><br>
+    <div class="row">
+      <div class="col-md-4"  id="hide">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cripsy Crust</td>
+              <td id="sp1">$ 5.60</td>
+            </tr> 
+            <tr>
+              <td scope="row">Stuffed Crust</td>
+              <td>$ 6.00</td>
+            </tr>
+            <tr>
+              <td scope="row">Gluten-free Crust</td>
+              <td>$ 6.50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4" id="hide1">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Medium Cripsy Crust</td>
+              <td>$ 8.10</td>
+            </tr>
+            <tr>
+              <td>Medium Stuffed Crust</td>
+              <td>$ 8.70</td>
+            </tr>
+            <tr>
+              <td>Medium Gluten-free Crust</td>
+              <td>$ 9.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4"  id="hide2">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Large Cripsy Crust</td>
+              <td>$ 9.00</td>
+            </tr>
+            <tr>
+              <td>Large Stuffed Crust</td>
+              <td>$ 9.60</td>
+            </tr>
+            <tr>
+              <td>Large Gluten-free Crust</td>
+              <td>$ 10.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        </div>
+          Input the price of your pizza:<input id="first"><br><br>
+          <div class="row">
+            <div class="col-md-4">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Type</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Pepperioni</td>
+                    <td>$ 2.00</td>
+                  </tr>
+                  <tr>
+                    <td>Salami</td>
+                    <td>$ 1.60</td>
+                  </tr>
+                  <tr>
+                    <td>Black-Olive</td>
+                    <td>$ 1.20</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Pepperioni
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Salami
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" value="">Black-Olive
+            </label>
+          </div>
+          <br><br>
+          Choose your favorite toppings: <input id="second"><br><br>
+          <button onclick="add()">Place Order</button><br><br>
+          Total Charge<input id="answer"><br>   
+          Want your pizza delivered?<select onclick="delivery();"name="delivery" id="deliver">
+            <option></option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <div>
+            <button class="btn btn-success"><a href="#"> Checkout</a></button><br><br>
+          </div>
+          <div>    
+           <button class="btn btn-secondary"><a href="#first"> Place another Order</a></button><br><br>
+        </div>
     </div>
   <script src="Static/JS/scripts.js"></script>
 </body>
