@@ -58,6 +58,17 @@ margin: 2% 0 0 45%;
     border: 4px dotted cadetblue;
 }
 
+#secondPrice{
+    color: blue;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+#secondPrice1> input{
+    width: 5vw;
+    border: 4px dotted cadetblue;
+}
+
 #menu{
     background-color: #EEEEEE;
     margin: 2% 5% 2% 5%;
